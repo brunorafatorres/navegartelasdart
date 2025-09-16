@@ -11,7 +11,9 @@ class Tela2 extends StatelessWidget {
       ),
       body: Center(
         child: ElevatedButton(
-        onPressed(){}, 
+        onPressed:(){
+          Navigator.of(context).pop();
+        }, 
         child: Text("Retornar")
         ),
       ),
